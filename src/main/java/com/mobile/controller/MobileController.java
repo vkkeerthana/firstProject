@@ -54,6 +54,7 @@ public class MobileController {
 	@GetMapping(value="/brand/{i}")
 	public String brands(@PathVariable int i) {
 		System.out.println("Hello from spring");
+		System.out.println("Hello from change 2");
 		return ms.brands(i);
 	}
 //	//JQuery
